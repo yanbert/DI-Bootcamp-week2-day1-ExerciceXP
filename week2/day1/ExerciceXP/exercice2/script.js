@@ -1,8 +1,17 @@
+/**********************************************************
+Correcteur: Yannick GOUGUIA
+Ton code est illisble, mal formaté, mal documenté.
+
+Mauvaise declaration de variable a la ligne 14,
+il faut bien declarer tes variables
+*********************************************************/
+
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 const myWatchedSeriesLength = "myWatchedSeries.length";
 const myWatchedSeriesSentence = myWatchedSeries.toString();
 console.log(myWatchedSeriesSentence);
 console.log("I watched 3 series:" + myWatchedSeriesSentence);
+
 const ii = myWatchedSeries.indexOf("the big bang theory");
 console.log(ii)
 myWatchedSeries[2] = "friends";
